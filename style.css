@@ -4,6 +4,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 .first {
     background-color: #1F2937;
@@ -63,9 +64,9 @@ a {
     border-radius: 8px; /*rounded edges*/
     margin-top: 20px;
 }
-.media {
-    height: 200px;
-    width: 450px;
+.header-img img {
+    width: 500px;
+    height: auto;
 }
 .title {
     font-size: 36px;
@@ -139,5 +140,4 @@ a {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    
 }
